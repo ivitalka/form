@@ -3,6 +3,7 @@
   "author": "Konovalov Vitaly",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "homepage": "https://ivitalka.github.io/form/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
