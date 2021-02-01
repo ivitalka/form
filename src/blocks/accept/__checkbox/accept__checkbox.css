@@ -1,0 +1,24 @@
+.accept__checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+
+.accept__checkbox + .accept__pseudo-item {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border: 2px solid #0880AE;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+    border-radius: 4px;
+}
+
+.accept__checkbox:checked + .accept__pseudo-item {
+    background: url("../../../images/icon-check.svg") center;
+}

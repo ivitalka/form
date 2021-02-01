@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./fonts/fonts.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__title/form__title.css);
+@import url(./blocks/form/__subtitle/form__subtitle.css);
+@import url(./blocks/form/__link/form__link.css);
+@import url(./blocks/form/__label/form__label.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__input/_select/form__input_select_language.css);
+@import url(./blocks/form/__list/form__list.css);
+@import url(./blocks/form/__list/_opened/form__list_opened.css);
+@import url(./blocks/form/__list-item/form__list-item.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/accept/accept.css);
+@import url(./blocks/accept/__text/accept__text.css);
+@import url(./blocks/accept/__checkbox/accept__checkbox.css);
+@import url(blocks/form/__error/form__error.css);
+@import url(blocks/form/__error/_target/form__error_target_accept.css);
+@import url(./blocks/input-container/input-container.css);
