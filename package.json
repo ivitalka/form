@@ -1,10 +1,11 @@
 {
-  "name": "form",
+  "name": "mesto-react",
   "author": "Konovalov Vitaly",
+  "description": "### Форма регистрации",
+  "main": "index.js",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
-  "homepage": "https://ivitalka.github.io/form/",
+  "homepage": "https://ivitalka.github.io/mesto-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
