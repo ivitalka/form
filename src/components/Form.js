@@ -46,7 +46,7 @@ function Form() {
                 setLanguageDirty(true);
                 break;
             case "accept":
-                setAcceptDirty(true)
+                setAcceptDirty(true);
                 break
         }
     };
@@ -62,7 +62,7 @@ function Form() {
     }, [nameError, emailError, phoneError, languageError, acceptError])
 
     const nameHandler = (e) => {
-        setName(e.target.value)
+        setName(e.target.value);
         const re = /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ' ]+[a-zA-Zа-яА-ЯёЁ']?$/;
         if(!re.test(String(e.target.value))){
             setNameError("Введено не корректное значение");
@@ -105,7 +105,7 @@ function Form() {
 
     const languageHandler = (e) => {
         setLanguage(e.target.textContent);
-        setDropdownIsOpen(false)
+        setDropdownIsOpen(false);
         if (e.target.textContent !== "Язык") {
             setLanguageError("")
         }
